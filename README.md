@@ -1,4 +1,5 @@
 dockprom
+ * Source has been Modified for docker-compose Version 2
 ========
 
 A monitoring solution for Docker hosts and containers with [Prometheus](https://prometheus.io/), [Grafana](http://grafana.org/), [cAdvisor](https://github.com/google/cadvisor), 
@@ -11,10 +12,9 @@ A monitoring solution for Docker hosts and containers with [Prometheus](https://
 Clone this repository on your Docker host, cd into dockprom directory and run compose up:
 
 ```bash
-git clone https://github.com/stefanprodan/dockprom
+git clone https://github.com/goody80/dockprom.git
 cd dockprom
-
-ADMIN_USER=admin ADMIN_PASSWORD=admin docker-compose up -d
+docker-compose up -d
 ```
 
 Prerequisites:
